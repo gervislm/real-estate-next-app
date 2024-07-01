@@ -26,6 +26,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+img {
+  height: 260px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
