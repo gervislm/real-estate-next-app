@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import { useEffect, useState } from "react";
-import { Box, Flex } from "@chakra-ui/react";
-import { baseUrl, fetchApi } from "../../utils/fetchApi";
+import { Box, Flex, Image } from "@chakra-ui/react";
+import { baseUrl, fetchApi } from "../utils/fetchApi";
 import { Banner } from "../components/Banner";
 import { Property } from "../components/Property";
 

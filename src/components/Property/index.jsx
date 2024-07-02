@@ -29,7 +29,7 @@ export const Property = ({
         flexWrap="wrap"
         w="420px"
         p="5"
-        paddingTop="0px"
+        pt="0px"
         justifyContent="flex-start"
         cursor="pointer"
       >
@@ -43,13 +43,9 @@ export const Property = ({
           />
         </Box>
         <Box w="full">
-          <Flex
-            paddingTop="2"
-            alignItems="center"
-            justifyContent="space-between"
-          >
+          <Flex pt="2" alignItems="center" justifyContent="space-between">
             <Flex alignItems="center">
-              <Box paddingRight="3" color="green.400">
+              <Box pr="3" color="green.400">
                 {isVerified && <GoVerified />}
               </Box>
               <Text fontWeight="bold" fontSize="lg">
